@@ -1,0 +1,41 @@
+{
+  "name": "typec",
+  "version": "0.0.0",
+  "main": "lib/typec",
+  "bin": "bin/typec",
+  "scripts": {
+    "test": "make lint && make test"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "eslint": "2.10.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  
+  "homepage": "https://typec.github.io/",
+  "repository": "typec/typec",
+  "bugs": "https://github.com/typec/typec/issues",
+  "description": "A statically typed programming language.",
+  "keywords": [
+    "typec",
+    "cx-lang",
+    "transpiler",
+    "vm",
+    "javascript",
+    "c++",
+    "cpp"
+  ],
+  "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com> (https://futagoza.github.io/)",
+  "license": "MIT",
+
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "root": true,
+    "env": {
+      "node": true,
+      "es6": true
+    }
+  }
+}
