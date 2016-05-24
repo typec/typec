@@ -1,1 +1,1 @@
-module.exports = require("../lib/typec");
+module.exports = require("../");

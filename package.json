@@ -1,7 +1,7 @@
 {
   "name": "typec",
   "version": "0.0.0",
-  "main": "lib/typec",
+  "main": "index",
   "bin": "bin/typec",
   "scripts": {
     "test": "make lint && make test"
